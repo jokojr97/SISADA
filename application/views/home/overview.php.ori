@@ -1,0 +1,149 @@
+<?php $this->load->view('home/_partial/header') ?>
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">Selamat Datang di SISADA</div>
+        <div class="intro-lead-in" >(Sistem Informasi Satu Data) Desa Tlogorejo</div>
+        <a class="btn btn-primary js-scroll-trigger btn-xl text-uppercase bg-primry" href="#publikasi">Publikasi</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-section" id="ttgAplikasi">
+    <div class="container">
+      <div class="row" style="">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Tentang Aplikasi</h2>
+          <h3 class="section-subheading text-muted">Sistem Informasi Satu Data Desa Tlogorejo</h3>
+        </div>
+      </div>
+      <div class="row">
+       <div class="col-md-7">
+         <p style="font-size: 18px"><b>SISADA (Sistem Informasi Satu Data)</b> Merupakan Sistem Informasi yang mengintegrasikan data-data yang ada di Desa Tlogorejo termasuk data kependudukan, penerima PKH, dll</p>
+       </div>
+       <div class="col-md-5">
+         <img src="<?= base_url() ?>/assets/home/img/pengertian-sistem.png" class="img-fluid">
+       </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="page-section bg-light" id="layanan">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Layanan</h2>
+          <h3 class="section-subheading text-muted">Sistem Informasi Satu Data Desa Tlogorejo</h3>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-code-branch fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Integrasi Data</h4>
+          <p class="text-muted">Mengintegrasikan data yang ada di Desa Tlogorejo mulai dari data kependudukan, data penerima PKH, dll</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-chart-bar fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Analisis Data</h4>
+          <p class="text-muted">Selain Mengintegrasikan data, data tersebt juga akan dianalisa menjadi Grafik atau Statistik</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Publikasi Data</h4>
+          <p class="text-muted">Mempublikasikan data yang telah diolah menjadi sebuah grafik atau statistik</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Grid -->
+  <section class="page-section" id="publikasi">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Publikasi</h2>
+          <h3 class="section-subheading text-muted">Sistem Informasi Satu Data Desa Tlogorejo</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+              </div>
+            </div>
+            <img class="img-fluid" src="<?= base_url() ?>assets/home/img/portfolio/01-thumbnail.jpg" alt="">
+          </a>
+          <div class="portfolio-caption mt-3">
+            <a href="#"><h4>Data Penduduk</h4></a>
+            <p class="text-muted">Data Penduduk Desa Tlogorejo</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+              </div>
+            </div>
+            <img class="img-fluid" src="<?= base_url() ?>assets/home/img/portfolio/02-thumbnail.jpg" alt="">
+          </a>
+          <div class="portfolio-caption mt-3">
+            <a href="#"><h4>Data Penerima PKH</h4></a>
+            <p class="text-muted">Data Penerima PKH Desa Tlogorejo</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+              </div>
+            </div>
+            <img class="img-fluid" src="<?= base_url() ?>assets/home/img/portfolio/03-thumbnail.jpg" alt="">
+          </a>
+          <div class="portfolio-caption mt-3">
+            <a href="#"><h4>Data Stunting</h4></a>
+            <p class="text-muted">Data Stunting Desa Tlogorejo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Clients --><!-- 
+  <section class="py-5 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto" src="<?= base_url() ?>assets/cropped-logo-1.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto" src="<?= base_url() ?>assets/home/img/logos/designmodo.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto" src="<?= base_url() ?>assets/home/img/logos/themeforest.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto" src="<?= base_url() ?>assets/home/img/logos/creative-market.jpg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+<?php $this->load->view('home/_partial/footer') ?>
