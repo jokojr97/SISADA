@@ -1,2 +1,2 @@
 # SISADA
-Sistem Informasi Satu Data desa Tlogorejo
+Sistem Informasi Satu Data Desa Tlogorejo
